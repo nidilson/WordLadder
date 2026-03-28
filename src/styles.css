@@ -1,3 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import "tailwindcss";
+
+
+
+@theme{
+    --color-main: oklch(51.06% 0.230 276.97);
+    --color-secondary: oklch(69.59% 0.149 162.48);
+    --color-tertiary: oklch(76.86% 0.165 70.08);
+    --color-neutral: oklch(37.17% 0.039 257.29);
+
+    --font-inter: "Inter", sans-serif;
+    --font-manrope: "Manrope", sans-serif;
+}
